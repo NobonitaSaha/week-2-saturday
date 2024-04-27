@@ -1,0 +1,346 @@
+@media only screen and (max-width: 375px) and (min-width: 346px) {
+}
+
+@media only screen and (max-width: 544px) and (min-width: 375px) {
+    
+}
+
+@media only screen and (max-width: 555px) and (min-width: 376px) {
+}
+
+@media only screen and (max-width: 1358px) and (min-width: 1202px) {
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 300px) {
+	
+	/* ---------- Banner Start --------- */
+	.main-hero-section {
+		height: 560px;
+	}
+	
+	.banner-conrent-area {
+		position: absolute;
+		left: 0;
+		right: 0px;
+		top: 48%;
+		transform: translateY(-50%);
+		padding: 15px;
+	}
+	
+	.banner-content h1 {
+		font-size: 30px;
+	}
+	
+	.banner-content p {
+		font-size: 15px;
+	}
+	/* ---------- Header End --------- */
+	
+	
+	
+	/* ---------- Book Now Section Start --------- */
+	.book-now-section {
+		height: 440px;
+	}
+	
+	.book-conrent-area {
+		top: 12%;
+	}
+	
+	h2.book-now-title {
+		font-size: 26px;
+		line-height: 1.25em;
+	}
+	
+	p.book-now-text {
+		font-size: 15px;
+		margin-bottom: 70px;
+		padding: 0px 15px;
+	}
+	
+	h3.book-now-contact {
+		font-size: 15px;
+	}
+	
+	a.book-contact-tel {
+		font-size: 26px;
+		transform: translateX(12%);
+		margin-top: 10px;
+	}
+	
+	h4.book-now-tel {
+		font-size: 26px;
+		margin-left: 10px;
+		margin-top: 8px;
+	}
+	/* ---------- Book Now Section End --------- */
+	
+	
+	
+	
+	/* ---------- About Section Start --------- */
+	.about-section {
+		padding-top: 70px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.about-img img {
+		width: 100%;
+		height: auto;
+	}
+	
+	h2.about-heading {
+		font-size: 26px;
+		margin-bottom: 15px;
+		line-height: 1.25em;
+	}
+	
+	.about-description-02 {
+		font-family: 'Roboto', sans-serif;
+		color: #7a7a7a;
+		font-size: 15px;
+		line-height: 28px;
+		margin-bottom: 20px;
+		font-weight: 500;
+		margin-right: 0px;
+		line-height: 25px;
+	}
+	
+	img.over-photo {
+		margin-bottom: 20px;
+	}
+	
+	.about-description-01 {
+		font-size: 15px;
+		line-height: 26px;
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
+	/* ---------- About Section End --------- */
+	
+	
+	
+	/* ---------- Service Section Start --------- */
+	.service-section {
+		padding-top: 70px;
+		padding-bottom: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	h2.service-heading {
+		font-size: 26px;
+		margin-bottom: 0px;
+		line-height: 1.25em;
+	}
+	
+	.service-description {
+		font-size: 15px;
+		line-height: 26px;
+		margin-bottom: 30px;
+		margin-right: 0px;
+		margin-top: 15px;
+	}
+
+	.service-btn button.order-btn.btn-enrol {
+		float: none;
+		top: 0px;
+		margin-bottom: 50px;
+	}
+	
+	.service-card {
+		margin-bottom: 60px;
+	}
+	
+	.service-img img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.service-description h3 {
+		font-size: 22px;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	
+	.service-description p {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 25px;
+		margin-right: 0px;
+		font-weight: inherit;
+		letter-spacing: 0px;
+		word-spacing: 0px;
+	}
+	/* ---------- Service Section End --------- */
+	
+	
+	
+	
+	
+	/* ---------- Footer Start --------- */
+	.footer {
+		padding-bottom: 60px;
+	}
+	
+	.footer-btn-01 {
+		padding-left: 0;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	
+	.footer-btn-02 {
+		text-align: center;
+	}
+	
+	/* ---------- Modal Popup --------- */
+	h3.footer-title {
+		font-size: 18px;
+		text-align: left;
+	}
+	
+	p.footer-text {
+		font-size: 15px;
+		line-height: 22px;
+		letter-spacing: 0.2px;
+		word-spacing: 0px;
+		text-align: left;
+	}
+	
+	ul.list-icon li {
+		font-size: 14px;
+		letter-spacing: 0.4px;
+		line-height: 22px;
+		text-align: left;
+		margin: 15px 0px;
+	}
+	
+	ul.list-icon li .icon {
+		margin-top: -10px;
+	}
+	
+	span.icon.background-transparent i {
+		font-size: 12px;
+	}
+	/* -- Modal Popup --- */
+	
+	
+	/* ---------- Footer End --------- */
+	
+	
+	
+	/* ---------- Go Back Button --------- */
+	.to-top {
+		background: #046bd2;
+		position: fixed;
+		padding: 5px 6px;
+		right: 14px;
+		display: flex;
+		transition: all .4s;
+		z-index: 1;
+	}
+	.to-top i {
+		display: inline-block;
+		font-size: 17px;
+		color: white;
+	}
+	.to-top.active {
+		bottom: 15px;
+	}
+}
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {
+	/* ---------- About section --------- */
+	.about-section .row {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 375px) and (min-width: 300px) {
+	/* ---------- Book Now --------- */
+	a.book-contact-tel {
+		font-size: 26px;
+		transform: translateX(8%);
+		margin-top: 10px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 530px) and (min-width: 376px) {
+	/* ---------- Book Now --------- */
+	a.book-contact-tel {
+		font-size: 26px;
+		transform: translateX(18%);
+		margin-top: 10px;
+	}
+}
+
+
+
+@media only screen and (max-width: 631px) and (min-width: 531px) {
+	/* ---------- Book Now --------- */
+	a.book-contact-tel {
+		font-size: 26px;
+		transform: translateX(25%);
+		margin-top: 10px;
+	}
+}
+
+
+
+@media only screen and (max-width: 832px) and (min-width: 632px) {
+	/* ---------- Book Now --------- */
+	a.book-contact-tel {
+		font-size: 26px;
+		transform: translateX(30%);
+		margin-top: 10px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {
+	/* ---------- Service --------- */
+	.service-img img {
+		width: 100%;
+		height: auto;
+	}
+	
+	/* ---------- Footer --------- */
+	.footer-btn-01 {
+		padding-left: 130px;
+	}
+	
+	/* ---------- Book Now --------- */
+	a.book-contact-tel {
+		align-items: center;
+		display: flex;
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 44px;
+		transform: translateX(27%);
+		margin-top: 18px;
+	}
+	
+	h4.book-now-tel {
+		font-size: 44px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		margin-left: 22px;
+		margin-top: 5px;
+	}
+}

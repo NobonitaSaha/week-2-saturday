@@ -1,0 +1,645 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+/* ---------------------
+	Button Start
+--------------------- */
+
+button.order-btn {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+button.order-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background: none;
+    padding: 11px 28px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color: #131316;
+    transition: 1s;
+	word-spacing: 1px;
+}
+
+button.order-btn:hover {
+    color: black;
+    border: 1px solid #3F704E;
+    background: #046bd2;
+    transition: 1s;
+	color: white;
+    border: none;
+    outline: none;
+}
+
+button.btn-enrol:hover::before {
+    height: 0%;
+}
+
+button.btn-enrol::before {
+    height: 100px;
+}
+
+button.btn-enrol::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+button.order-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    z-index: -1;
+    transition: 1s;
+}
+
+/* ---------------------
+	Button End
+--------------------- */
+
+
+
+
+/* -----------------------------
+		Banner Section Start 
+------------------------------ */
+
+.main-hero-section {
+    overflow-x: hidden;
+    background-image: url('../img/newzland-images/Newzland-banner-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+.main-hero-section::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: linear-gradient(to right, #046bd285, #114df500);
+}
+
+.banner-conrent-area {
+    position: absolute;
+    left: 0;
+    right: 30px;
+    top: 48%;
+    transform: translateY(-50%);
+}
+
+.banner-content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.banner-content p {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* -----------------------------
+		Banner Section End
+------------------------------ */
+
+
+
+
+/* -----------------------------
+		Book Now Section Start 
+------------------------------ */
+
+.book-now-section {
+    overflow-x: hidden;
+    background-image: url('../img/newzland-images/Newzland-banner-02.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+.book-now-section::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #046bd2;
+    opacity: 0.65;
+}
+
+.book-conrent-area{
+	text-align: center;
+	position: absolute;
+    left: 0;
+    right: 0px;
+    top: 26%;
+}
+
+h2.book-now-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+p.book-now-text {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 90px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3.book-now-contact {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    word-spacing: 1.5px;
+    font-weight: 700;
+}
+
+a.book-contact-tel {
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 40px;
+    transform: translateX(38%);
+}
+
+h4.book-now-tel {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+a.book-contact-tel {
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 48px;
+    transform: translateX(27%);
+    margin-top: 18px;
+}
+
+a.book-contact-tel:hover {
+    color: white !important;
+}
+
+/* -----------------------------
+		Book Now Section End
+------------------------------ */
+
+
+
+
+/* --------------------------
+	About Section Start
+---------------------------- */
+.about-section{
+	padding-top: 120px;
+}
+
+.about-img img {
+    width: 95%;
+}
+
+.about-01-img{
+	margin-bottom: 35px;
+}
+
+.about-description-01 {
+    font-family: 'Roboto', sans-serif;
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    font-weight: initial;
+    margin-right: 40px;
+}
+
+.about-section button.order-btn {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.about-section button.order-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background: none;
+    padding: 12px 24px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    transition: 1s;
+	word-spacing: 1px;
+}
+
+.about-section button.order-btn:hover {
+    color: black;
+    background: #3e3e3e;
+    transition: 1s;
+	color: white;
+    border: none;
+    outline: none;
+}
+
+.about-section button.btn-enrol:hover::before {
+    height: 0%;
+}
+
+.about-section button.btn-enrol::before {
+    height: 100px;
+}
+
+.about-section button.btn-enrol::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.about-section button.order-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #61CE70;
+    z-index: -1;
+    transition: 1s;
+}
+
+h2.about-heading {
+    font-size: 32px;
+    font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+    color: #6ec1e4;
+    margin-bottom: 20px;
+}
+
+
+.about-description-02 {
+    font-family: 'Roboto', sans-serif;
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+/* --------------------------
+	About Section End
+---------------------------- */
+
+
+
+
+/* --------------------------
+	Service Section Start
+---------------------------- */
+.service-section{
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+
+h2.service-heading {
+    font-size: 32px;
+    font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+    color: #6ec1e4;
+    margin-bottom: 20px;
+}
+
+.service-description {
+    font-family: 'Roboto', sans-serif;
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.service-btn button.order-btn.btn-enrol {
+    float: right;
+    top: -85px;
+}
+
+.service-btn button.order-btn {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.service-btn button.order-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background: none;
+    padding: 12px 24px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    transition: 1s;
+	word-spacing: 1px;
+}
+
+.service-btn button.order-btn:hover {
+    color: black;
+    background: #3e3e3e;
+    transition: 1s;
+	color: white;
+    border: none;
+    outline: none;
+}
+
+.service-btn button.btn-enrol:hover::before {
+    height: 0%;
+}
+
+.service-btn button.btn-enrol::before {
+    height: 100px;
+}
+
+.service-btn button.btn-enrol::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.service-btn button.order-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #61CE70;
+    z-index: -1;
+    transition: 1s;
+}
+
+
+/* -- Service Crad Start -- */
+.service-img img {
+    width: 325px;
+    height: 390px;
+}
+
+.service-description h3{
+	font-size: 26px;
+    font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+    color: #6ec1e4;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.service-description p {
+    font-family: 'Roboto', sans-serif;
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-right: 35px;
+    letter-spacing: 0.2px;
+}
+
+.service-border {
+    border-bottom: 2px solid  #0d6efd;
+    width: 73px;
+}
+
+.service-border a{
+    text-decoration: none !important;
+}
+
+.service-border a:hover{
+    text-decoration: none !important;
+}
+
+.service-description span {
+	text-decoration: none !important;
+	font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #0d6efd;
+	margin-bottom: 30px;
+}
+/*-- Service Crad End -- */
+
+/* --------------------------
+	Service Section End
+---------------------------- */
+
+
+
+
+/* --------------------------
+	Footer Section Start
+---------------------------- */
+
+.footer{
+	padding-bottom: 80px;
+}
+
+.footer-btn-01 {
+    padding-left: 200px;
+}
+
+.footer button.order-btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background: none;
+    padding: 12px 24px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    transition: 1s;
+	word-spacing: 1px;
+}
+
+.footer button.order-btn:hover {
+    color: black;
+    background: #3e3e3e;
+    transition: 1s;
+	color: white;
+    border: none;
+    outline: none;
+}
+
+.footer button.btn-enrol:hover::before {
+    height: 0%;
+}
+
+.footer button.btn-enrol::before {
+    height: 100px;
+}
+
+.footer button.btn-enrol::before {
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.footer button.order-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #61CE70;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+
+/* -- Modal PopUp Start -- */
+h2.modal-title {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: 'Roboto';
+    margin: 8px 0px;
+}
+
+h3.footer-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: #383838;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+p.footer-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	word-spacing: 1px;
+}
+
+ul.list-icon {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-icon li {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px;
+    color: #7a7a7a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+}
+
+ul.list-icon li .icon {
+    width: 25px;
+    height: 20px;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    margin-right: -8px;
+    min-width: 30px;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+span.icon.background-transparent i {
+    font-size: 15px;
+}
+
+.btn-close {
+    padding: 20px 30px !important;
+	outline: none !important;
+}
+
+.btn-close:focus {
+    box-shadow: none !important;
+}
+
+button.btn.btn-danger {
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+/* -- Modal PopUp End -- */
+
+
+/* --------------------------
+	Footer Section End
+---------------------------- */
+
+
+
+/* ----------------------
+	Go Back Button Start
+------------------------- */
+
+.to-top {
+	background: #046bd2;
+	position: fixed;
+	padding: 6px 8px;
+	right: 32px;
+	display: flex;
+	transition: all .4s;
+	z-index: 1;
+}
+.to-top.active {
+    bottom: 85px;
+    pointer-events: auto;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.to-top i{
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+}
+
+/* ----------------------
+	Go Back Button End
+------------------------- */
